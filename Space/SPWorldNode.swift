@@ -11,7 +11,7 @@ import UIKit
 
 class SPWorldNode: SPNode, SPSceneDelegate, SPPlayerSpriteNodeDelegate, SPInputHandlerDelegate, SPEnemyDelegate {
 
-    let playerSpriteNode = SPPlayerSpriteNode(color: SKColor.whiteColor(), size: CGSize(width: 30.0, height: 30.0))
+    let playerSpriteNode = SPPlayerSpriteNode(imageNamed: "Ship.png")
     var layers = [SPLayer]()
     
     var spawnRate: NSTimeInterval = 0.5
@@ -88,6 +88,7 @@ class SPWorldNode: SPNode, SPSceneDelegate, SPPlayerSpriteNodeDelegate, SPInputH
         
         func setupPlayer() {
             
+            playerSpriteNode.setScale(0.2)
             playerSpriteNode.position = CGPoint(x: SPScreen.WidthHalf(), y: SPPlayerSettings.PlayerMarginBottom)
             playerSpriteNode.delegate = self
             playerSpriteNode.setup()

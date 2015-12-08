@@ -62,7 +62,7 @@ class SPDoubleMachineGunWeapon: SPWeapon {
                     return
                 }
                 
-                var bullet = SPBullet(color: UIColor.magentaColor(), size: CGSize(width: 5, height: 15))
+                var bullet = SPBullet(imageNamed: "Shoot.png")
                 
                 bullet.position = self.node.position
                 bullet.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: 5, height: 5))
@@ -79,7 +79,7 @@ class SPDoubleMachineGunWeapon: SPWeapon {
                 
                 
                 
-                bullet = SPBullet(color: UIColor.magentaColor(), size: CGSize(width: 5, height: 15))
+                bullet = SPBullet(imageNamed: "Shoot.png")
                 
                 bullet.position = self.node.position
                 bullet.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: 5, height: 5))
@@ -96,7 +96,7 @@ class SPDoubleMachineGunWeapon: SPWeapon {
                 
                 
                 
-                bullet = SPBullet(color: UIColor.magentaColor(), size: CGSize(width: 5, height: 15))
+                bullet = SPBullet(imageNamed: "Shoot.png")
                 
                 bullet.position = self.node.position
                 bullet.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: 5, height: 5))

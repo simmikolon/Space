@@ -30,6 +30,8 @@
 		4A8825231C0895F800F055EC /* SPPlayerSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8825221C0895F800F055EC /* SPPlayerSpriteNode.swift */; };
 		4A8825251C089B3200F055EC /* SPInputHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8825241C089B3200F055EC /* SPInputHandler.swift */; };
 		4AA634511C10CB1500C6BF08 /* SPEnemyBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA634501C10CB1500C6BF08 /* SPEnemyBullet.swift */; };
+		4AE9AEFF1C17763F0060E2EC /* Ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AE9AEFD1C17763F0060E2EC /* Ship.png */; };
+		4AE9AF001C17763F0060E2EC /* Shoot.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AE9AEFE1C17763F0060E2EC /* Shoot.png */; };
 		4AEE5D281C0A3EA4002B13DE /* nebula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AEE5D271C0A3EA4002B13DE /* nebula.jpg */; };
 		4AEE5D2A1C0A3EB7002B13DE /* SPImageLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEE5D291C0A3EB7002B13DE /* SPImageLayer.swift */; };
 /* End PBXBuildFile section */
@@ -60,6 +62,8 @@
 		4A8825221C0895F800F055EC /* SPPlayerSpriteNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPlayerSpriteNode.swift; sourceTree = "<group>"; };
 		4A8825241C089B3200F055EC /* SPInputHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPInputHandler.swift; sourceTree = "<group>"; };
 		4AA634501C10CB1500C6BF08 /* SPEnemyBullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPEnemyBullet.swift; sourceTree = "<group>"; };
+		4AE9AEFD1C17763F0060E2EC /* Ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ship.png; path = ../Assets/Ship.png; sourceTree = "<group>"; };
+		4AE9AEFE1C17763F0060E2EC /* Shoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shoot.png; path = ../Assets/Shoot.png; sourceTree = "<group>"; };
 		4AEE5D271C0A3EA4002B13DE /* nebula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nebula.jpg; sourceTree = "<group>"; };
 		4AEE5D291C0A3EB7002B13DE /* SPImageLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPImageLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +82,8 @@
 		4A21C4971C0859AC00D0E7BC = {
 			isa = PBXGroup;
 			children = (
+				4AE9AEFD1C17763F0060E2EC /* Ship.png */,
+				4AE9AEFE1C17763F0060E2EC /* Shoot.png */,
 				4AEE5D271C0A3EA4002B13DE /* nebula.jpg */,
 				4A53B5F01C0C8D68006CC7B2 /* Handler */,
 				4A21C4C71C085A7800D0E7BC /* SpriteKit Subclasses */,
@@ -216,8 +222,10 @@
 			files = (
 				4AEE5D281C0A3EA4002B13DE /* nebula.jpg in Resources */,
 				4A21C4B21C0859AC00D0E7BC /* LaunchScreen.storyboard in Resources */,
+				4AE9AEFF1C17763F0060E2EC /* Ship.png in Resources */,
 				4A21C4AF1C0859AC00D0E7BC /* Assets.xcassets in Resources */,
 				4A21C4AD1C0859AC00D0E7BC /* Main.storyboard in Resources */,
+				4AE9AF001C17763F0060E2EC /* Shoot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
